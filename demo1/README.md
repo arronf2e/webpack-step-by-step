@@ -1,0 +1,1 @@
+webpack支持es6, CommonJS, AMD
