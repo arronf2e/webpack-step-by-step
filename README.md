@@ -1,2 +1,2 @@
-# webpack4-study
-webpack4学习记录
+# webpack-study
+webpack学习记录

@@ -1,11 +1,11 @@
-import sum1 from './module/esm'
+import sum1 from './esmodule'
 
-console.log(sum1(1, 2), 'esm')
+console.log(`esmodule sum1(1,2) = ${sum1(1,2)}`)
 
-var { sum2 } = require('./module/commonjs')
+const multi = require('./commonjs')
 
-console.log(sum2(3, 4), 'commonjs')
+console.log(`commonjs sum2(1,2) = ${multi.sum2(1,2)}`)
 
-require(['./module/amd.js'], function(sum3) {
-    console.log(sum3(3, 4), 'amd')
+require(['./amd.js'], function(sum3) {
+    console.log(`amd sum3(1,2) = ${sum3(1,2)}`)
 })
