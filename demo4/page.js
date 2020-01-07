@@ -13,6 +13,4 @@ import('lodash').then(_ => {
 // import subPageA from './subPageA'
 // import subPageB from './subPageB'
 
-console.log(subPageA, subPageB)
-
 export default 'page'
